@@ -1,41 +1,37 @@
-name: tara
+name: ia_drup_one
+description: 'Theme by <a href="http://ITsAli.com/" target="_blank">ITsAli.com</a>'
 type: theme
-base theme: stable
-description: 'Tara is light weight modern Drupal 8 theme by <a href="https://www.drupar.com/" target="_blank">Drupar.com</a>'
+base theme: classy
 package: Core
-# Define theme core
+
 core: 8.x
 core_version_requirement: ^8 || ^9
-# Comment version before uploading to drupal.org
-# version: 8.2.3
-# Libraries
+
+version: '0.0.1'
+project: 'ia_drup_one'
+datestamp: 1601657287
+
 libraries:
-  - tara/global-styling # Library for all global css. These css will be loaded on every pages.
-  - tara/global-scripts # Library for all global js. These js will be loaded on every pages.
+  - ia_drup_one/global-styling
+
 regions:
-  header_top: 'Header Top'
-  site_branding: 'Site Branding'
+  header: Header
   primary_menu: 'Primary menu'
-  search_box: 'Full Page Search'
+  secondary_menu: 'Secondary menu'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   highlighted: Highlighted
+  featured_top: 'Featured top'
   breadcrumb: Breadcrumb
   content: Content
-  content_top: 'Content Top'
-  content_bottom: 'Content Bottom'
-  content_home: 'Homepage Content'
-  sidebar_first: 'Sidebar Left'
-  sidebar_second: 'Sidebar Right'
-  footer_top: 'Footer Top'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
   footer_first: 'Footer first'
   footer_second: 'Footer second'
   footer_third: 'Footer third'
   footer_fourth: 'Footer fourth'
-  footer_bottom: 'Footer Bottom'
-  hidden_blocks: 'Hidden Blocks'
-
-# Information added by Drupal.org packaging script on 2020-09-05
-version: '8.x-2.3'
-project: 'tara'
-datestamp: 1599293901
+  footer_fifth: 'Footer fifth'
+  custom_header_region: 'Custom Header Region'

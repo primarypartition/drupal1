@@ -1,0 +1,9 @@
+<?php 
+
+function ia_drup_one_preprocess_node(&$variables) {
+	$variables['custom_variable'] = "Loreum Ipsum";
+	
+	$variables['content']['field_image']['#suffix'] = "Loreum Ipsum";	
+
+	$variables['content']['our_custom_field'] = array("#type" => "markup", "#markup" => "<h1>Hello World!</h1>");
+}
