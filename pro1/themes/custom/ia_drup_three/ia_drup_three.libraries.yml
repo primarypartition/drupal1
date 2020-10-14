@@ -1,0 +1,14 @@
+webshop-style:
+  css:
+    theme:
+      css/materialize.css: {}
+      css/style.css: {}
+  js:
+    js/materialize.js: {}
+    js/init.js: {}
+  dependencies:
+    - core/jquery
+animate_css:
+  css:
+    theme:
+      libs/animate_css/animate.css: {}

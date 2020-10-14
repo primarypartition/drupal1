@@ -1,0 +1,16 @@
+name: ia_drup_three
+description: 'Theme by <a href="http://ITsAli.com/" target="_blank">ITsAli.com</a>'
+type: theme
+base theme: classy
+package: Core
+
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+version: '0.0.1'
+project: 'ia_drup_three'
+datestamp: 1601657287
+
+libraries:
+  - ia_drup_three/webshop-style
+  

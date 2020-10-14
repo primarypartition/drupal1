@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implementing hook_preprocess_html().
+ */
+function ia_drup_three_preprocess_html(&$variables) {
+	//kint($variables);
+}
